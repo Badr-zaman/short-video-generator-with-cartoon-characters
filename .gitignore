@@ -5,3 +5,4 @@ public/generated/
 .DS_Store
 .claude/settings.local.json
 *.log
+.git-credentials
