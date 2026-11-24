@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+output/
+public/generated/
+.DS_Store
+.claude/settings.local.json
+*.log

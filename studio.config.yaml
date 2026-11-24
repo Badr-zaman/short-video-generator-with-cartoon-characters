@@ -1,0 +1,58 @@
+# Offscreen studio settings. Edit freely — no code changes needed.
+
+video:
+  fps: 30
+  width: 1080
+  height: 1920
+  minSeconds: 30        # warn below this
+  maxSeconds: 55        # hard limit: render refuses above this
+  leadIn: 0.4           # silence before the first line (seconds)
+  gapBetweenLines: 0.25 # default pause after each line (seconds)
+  tail: 1.2             # time after the last line (seconds)
+
+# Kokoro voices (local, free). Hear them all with:  npm run voices
+# Two voice styles:
+#   style: classic   pitch  > 1 makes the voice higher and smaller together (1.3–1.45 sounds like a baby).
+#   style: toddler   pitchHz         average pitch in Hz (toddlers ≈ 350–450)
+#                    size            how small the voice sounds: 1 = adult, 1.2 = small child, 1.4+ = chipmunk
+#                    expressiveness  how much the pitch rises and falls: 1 = as spoken, 1.3 = sing-song
+#                    Each line's emotion also changes the delivery (shocked = higher/faster, sad = lower/slower,
+#                    crying and laughing wobble).
+# tempo  final speaking speed: 1 = normal, 0.95 ≈ 90% of the original 1.05. Lowest 0.5.
+characters:
+  boy:
+    name: Leo
+    style: toddler
+    voice: af_sky
+    pitchHz: 360
+    size: 1.2
+    expressiveness: 1.3
+    tempo: 0.95
+    look:
+      skin: "#f3c3a0"
+      hair: "#8a5a32"
+      outfit: "#7db7e8"
+      accent: "#2f7fd1"
+  girl:
+    name: Mia
+    style: classic
+    voice: af_bella
+    pitch: 1.42
+    tempo: 0.95
+    look:
+      skin: "#f7cfb2"
+      hair: "#d8a157"
+      outfit: "#f5a8c3"
+      accent: "#e2457a"
+
+music:
+  # Put royalty-free tracks (e.g. YouTube Audio Library) in assets/music/
+  # and reference them by file name in an episode with `music: name.mp3`.
+  volume: 0.12
+
+# Optional local LLM for `npm run new -- "idea"` (free, via Ollama).
+llm:
+  ollamaUrl: http://localhost:11434
+  model: qwen2.5:3b
+
+endCard: "Follow for more baby drama 👶"

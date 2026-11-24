@@ -1,0 +1,34 @@
+title: Baby tries to negotiate bedtime like a CEO
+hook: "BEDTIME IS NEGOTIABLE?"
+setting: night
+lines:
+  - who: girl
+    emotion: angry
+    text: Leo. It's seven o'clock and they turned the lights off. This is a hostile takeover.
+  - who: boy
+    emotion: smug
+    text: Relax. I scheduled a meeting with Dad. I'm proposing a later bedtime.
+  - who: girl
+    emotion: confused
+    text: What are you offering in return?
+  - who: boy
+    emotion: happy
+    text: One giggle. Two if he does the airplane spoon.
+  - who: girl
+    emotion: shocked
+    text: Two giggles? That's our whole budget for the week!
+  - who: boy
+    emotion: neutral
+    text: Trust the process. I've been studying his weaknesses.
+  - who: girl
+    emotion: confused
+    text: And?
+  - who: boy
+    emotion: sad
+    pause: 0.6
+    text: He fell asleep during my pitch.
+  - who: girl
+    emotion: laughing
+    reaction: crying
+    text: So the meeting is over and bedtime is still at seven? Great deal, CEO.
+hashtags: [babies, bedtime, funny, ceo]

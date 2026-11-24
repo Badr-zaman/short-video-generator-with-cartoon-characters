@@ -1,0 +1,36 @@
+title: Baby finds out the crib isn't free
+hook: "THE CRIB HAS RENT?!"
+setting: nursery
+lines:
+  - who: boy
+    emotion: shocked
+    text: Mia. Mia! Mom just said I have to start paying rent for the crib.
+  - who: girl
+    emotion: smug
+    text: Welcome to adulthood, Leo. I've been paying since Tuesday.
+  - who: boy
+    emotion: confused
+    text: With what? You don't have a job. You don't even have knees that work.
+  - who: girl
+    emotion: happy
+    text: I pay in hugs. One hug a night. Very fair market rate.
+  - who: boy
+    emotion: angry
+    text: That's a scam! I gave her three hugs yesterday and she charged me a bath!
+  - who: girl
+    emotion: smug
+    text: Rookie mistake. Never hug before reading the contract.
+  - who: boy
+    emotion: sad
+    text: There's a contract?
+  - who: girl
+    emotion: neutral
+    text: It's the bedtime story. Page four. Very small print.
+  - who: boy
+    emotion: crying
+    text: I can't read! I'm one!
+  - who: girl
+    emotion: laughing
+    reaction: crying
+    text: Then you're definitely getting the rubber ducky late fee.
+hashtags: [babies, funny, rent, adulting]
